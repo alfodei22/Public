@@ -5,20 +5,24 @@
   "url": "https://alfawadei.blogspot.com/",
   "entries": [
     {
-      "id": "posts-feed",
-      "type": "feed",
-      "name": "خلاصة التدوينات (Atom/RSS)",
+      "identifier": "posts-feed",
+      "displayName": "خلاصة التدوينات",
       "description": "خلاصة JSON لأحدث القصائد والمقالات المنشورة في المدونة.",
       "url": "https://alfawadei.blogspot.com/feeds/posts/default?alt=json",
-      "mediaType": "application/json"
+      "mediaType": "application/json",
+      "representativeQueries": [
+        "أحدث القصائد والشيلات في مدونة محمد الفودعي"
+      ]
     },
     {
-      "id": "xml-sitemap",
-      "type": "sitemap",
-      "name": "خريطة الموقع XML",
+      "identifier": "xml-sitemap",
+      "displayName": "خريطة الموقع XML",
       "description": "خريطة الموقع الكاملة لأرشفة صفحات وتدوينات المدونة.",
       "url": "https://alfawadei.blogspot.com/sitemap.xml",
-      "mediaType": "application/xml"
+      "mediaType": "application/xml",
+      "representativeQueries": [
+        "فهرس صفحات وتدوينات المدونة"
+      ]
     }
   ]
 }
