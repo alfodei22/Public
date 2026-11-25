@@ -7,6 +7,7 @@
     {
       "identifier": "urn:air:alfawadei.blogspot.com:feed:posts",
       "displayName": "خلاصة التدوينات (Atom/RSS)",
+      "type": "feed",
       "description": "خلاصة JSON لأحدث القصائد والمقالات المنشورة في المدونة.",
       "url": "https://alfawadei.blogspot.com/feeds/posts/default?alt=json",
       "mediaType": "application/json",
@@ -18,6 +19,7 @@
     {
       "identifier": "urn:air:alfawadei.blogspot.com:sitemap:xml",
       "displayName": "خريطة الموقع XML",
+      "type": "sitemap",
       "description": "خريطة الموقع الكاملة لأرشفة صفحات وتدوينات المدونة.",
       "url": "https://alfawadei.blogspot.com/sitemap.xml",
       "mediaType": "application/xml",
@@ -29,6 +31,7 @@
     {
       "identifier": "urn:air:alfawadei.blogspot.com:portal:home",
       "displayName": "الصفحة الرئيسية للمدونة",
+      "type": "resource",
       "description": "الواجهة الرئيسية لمدونة المهندس والكاتب محمد الفودعي التي تضم أحدث الإصدارات الأدبية والهندسية.",
       "url": "https://alfawadei.blogspot.com/",
       "mediaType": "text/html",
