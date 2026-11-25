@@ -1,11 +1,11 @@
 {
   "version": "1.0",
   "name": "موقع المهندس والكاتب محمد الفودعي",
-  "description": "مدونة أدبية وهندسية تضم قصائد وشيلات ومقالات متنوعة.",
+  "description": "منصة أدبية وهندسية للمهندس محمد الفودعي تضم قصائد عربية فصيحة ونبطية، وشيلات، ومقالات أدبية وفكرية، ومحتوى متعلق بالتصميم الداخلي والنجارة والنحت والديكور والمخططات الهندسية.",
   "url": "https://alfawadei.blogspot.com/",
   "entries": [
     {
-      "identifier": "posts-feed",
+      "identifier": "urn:air:alfawadei.blogspot.com:feed:posts",
       "displayName": "خلاصة التدوينات (Atom/RSS)",
       "description": "خلاصة JSON لأحدث القصائد والمقالات المنشورة في المدونة.",
       "url": "https://alfawadei.blogspot.com/feeds/posts/default?alt=json",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "identifier": "xml-sitemap",
+      "identifier": "urn:air:alfawadei.blogspot.com:sitemap:xml",
       "displayName": "خريطة الموقع XML",
       "description": "خريطة الموقع الكاملة لأرشفة صفحات وتدوينات المدونة.",
       "url": "https://alfawadei.blogspot.com/sitemap.xml",
@@ -24,6 +24,17 @@
       "representativeQueries": [
         "فهرس صفحات وتدوينات المدونة",
         "خريطة الأرشفة الكاملة للموقع"
+      ]
+    },
+    {
+      "identifier": "urn:air:alfawadei.blogspot.com:portal:home",
+      "displayName": "الصفحة الرئيسية للمدونة",
+      "description": "الواجهة الرئيسية لمدونة المهندس والكاتب محمد الفودعي التي تضم أحدث الإصدارات الأدبية والهندسية.",
+      "url": "https://alfawadei.blogspot.com/",
+      "mediaType": "text/html",
+      "representativeQueries": [
+        "نبذة عن موقع المهندس والكاتب محمد الفودعي",
+        "الرابط الرئيسي لمدونة محمد الفودعي"
       ]
     }
   ]
